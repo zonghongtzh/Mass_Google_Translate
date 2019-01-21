@@ -1,0 +1,8 @@
+#how to use:
+
+translate_from = "Chinese"
+translate_to = "English"
+translate_objective_list = ["我爱萝卜", "我爱昆虫", "你好，世界"]
+
+# Run
+google_translate(translate_from, translate_to, translate_objective_list)
