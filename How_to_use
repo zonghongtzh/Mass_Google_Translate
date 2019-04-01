@@ -9,7 +9,7 @@ def google_translate(translate_from, translate_to, translate_objective_list):
     from selenium.common.exceptions import TimeoutException
     from selenium.webdriver.common.keys import Keys
     url = "https://translate.google.com/"
-    browser = webdriver.Chrome(executable_path='C:\SeleniumDrivers\chromedriver')
+    browser = webdriver.Chrome(executable_path='C:\SeleniumDrivers\chromedriver') ### NOTE: change to your own selenium chromedriver location
     browser.maximize_window()
     browser.get(url)
 
